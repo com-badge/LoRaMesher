@@ -24,4 +24,9 @@ uint16_t WiFiService::getLocalAddress() {
     return localAddress;
 }
 
+uint16_t WiFiService::getLocalAddress(uint16_t mac) {
+    localAddress = mac;
+    return localAddress;
+}
+
 uint16_t WiFiService::localAddress = 0;

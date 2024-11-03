@@ -438,6 +438,10 @@ uint16_t LoraMesher::getLocalAddress() {
     return WiFiService::getLocalAddress();
 }
 
+uint16_t LoraMesher::setLocalAddress(uint16_t mac) {
+    return WiFiService::setLocalAddress();
+}
+
 /**
  *  Region Packet Service
 **/

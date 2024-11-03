@@ -17,6 +17,7 @@ public:
      * @return uint16_t Local Address
      */
     static uint16_t getLocalAddress();
+    static uint16_t setLocalAddress(uint16_t mac);
 
 private:
 

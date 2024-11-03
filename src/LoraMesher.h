@@ -334,6 +334,13 @@ public:
     uint16_t getLocalAddress();
 
     /**
+     * @brief Set the Local Address
+     *
+     * @return uint16_t Address
+     */
+    uint16_t setLocalAddress(uint16_t mac);
+
+    /**
      * @brief Get the Received Data Packets Num
      *
      * @return uint32_t
