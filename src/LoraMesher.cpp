@@ -439,7 +439,7 @@ uint16_t LoraMesher::getLocalAddress() {
 }
 
 uint16_t LoraMesher::setLocalAddress(uint16_t mac) {
-    return WiFiService::setLocalAddress();
+    return WiFiService::setLocalAddress(mac);
 }
 
 /**
