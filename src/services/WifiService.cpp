@@ -14,7 +14,7 @@ void WiFiService::init() {
 #else
     efuse_hal_get_mac(mac);
 #endif
-    localAddress = (mac[4] << 8) | mac[5];
+    localAddress = (mac[0] << 8) | mac[1];
     ESP_LOGI(LM_TAG, "Local LoRa address (from WiFi MAC): %X", localAddress);
 }
 
